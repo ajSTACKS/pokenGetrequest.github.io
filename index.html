@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Simple Pokedex API</title>
-    <link rel="stylesheet" href="/sass/main.scss">
+    <link rel="stylesheet" href="rl( 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:100,300,400,500,700')">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   
@@ -30,8 +30,7 @@
 </div>
 
 <style>
-  @import url( 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:100,300,400,500,700');
-@import "reset";
+  
 $darkRed:#8D0A29;
 $mainRed:#DC0A2D;
 $blue:#28A7F4;
@@ -41,6 +40,7 @@ $green:#51AD60;
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   background: $grey;
+  box-sizing: border-box;
 }
 
 *{
@@ -58,7 +58,7 @@ body {
   border: 1px solid $green;
   border-radius: 2px;
   position: relative;
-
+box-sizing: border-box;
 
 h1{
   display: block;
@@ -66,6 +66,7 @@ h1{
   font-size: 3rem;
   text-align: center;
   margin: 25px 0;
+  box-sizing: border-box;
 }
 h3{
   display: block;
@@ -74,10 +75,12 @@ h3{
   text-align: center;
   margin: 25px 0;
   color: $green;
+  box-sizing: border-box;
 }
 
 form{
   text-align: center;
+  box-sizing: border-box;
 }
 input[type="text"]{
   font-size:  1.7rem;
@@ -86,6 +89,7 @@ input[type="text"]{
   border-radius: 5px;
   border: 1px solid $grey;
   text-align: center;
+  box-sizing: border-box;
 }
 .btn{
   display: inline-block;
@@ -94,6 +98,7 @@ input[type="text"]{
   color: white;
   border-radius: 6%;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .loading-container{
   background: white;
@@ -106,8 +111,10 @@ input[type="text"]{
   justify-content: center;
   z-index: 10;
   display: none;
+  box-sizing: border-box;
   &.active{
     display: flex;
+    box-sizing: border-box;
   }
 }
 }
@@ -120,10 +127,11 @@ input[type="text"]{
   margin: 0 auto;
   background: #fff;
   border-radius: 5px;
-
+box-sizing: border-box;
 
   img{
     width: 100%;
+    box-sizing: border-box;
   }
 }
 </style>
